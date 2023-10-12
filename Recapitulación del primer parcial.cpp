@@ -85,7 +85,7 @@ int main()
 
         else if (Opcion == '8')
         {
-            // FILO.
+            // FIFO.
             Cola[ActualCola + 1] = 0;
 
             // Recorre los elementos hacia la izquierda.
@@ -99,7 +99,7 @@ int main()
 
         else if (Opcion == '9')
         {
-            // FIFO.
+            // FILO.
             Pila[ActualPila] = 0;
 
             // Verifica que el apuntador no pueda ser menor que 0.
